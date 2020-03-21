@@ -1,0 +1,42 @@
+#top-nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: $blanco;
+    z-index: 100;
+    .navbar-brand {
+        img {
+            width: 100%;
+            max-width: 150px;
+        }
+    }
+    ul {
+        li {
+            a {
+                text-align: center;
+                color: $negro;
+                font-size: 2rem;
+                font-family: $kenyan;
+                letter-spacing: 1px;
+                &:hover {
+                    color: $rojo;
+                    transition: ease-in-out .3s;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 992px) {
+        background-color: transparent;
+        ul {
+            li {
+                a {
+                    color: $negro;
+                    font-size: 1.3rem;
+                    font-family: $kenyan;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}

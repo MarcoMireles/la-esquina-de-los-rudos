@@ -1,0 +1,16 @@
+#inicio {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        text-transform: uppercase;
+        font-family: $nexa;
+        span {
+            font-size: 25px;
+            font-family: $kenyan;
+            letter-spacing: 1px;
+        }
+    }
+}

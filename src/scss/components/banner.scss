@@ -1,0 +1,12 @@
+#banner {
+    margin-top: 30px;
+    height: 150px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @media only screen and (min-width: 768px) {
+        margin-top: 80px;
+        height: 230px;
+    }
+}

@@ -1,0 +1,33 @@
+#populares {
+    .titulo-platillo-popular {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        line-height: 25px;
+        .titulo {
+            font-family: $nexa;
+        }
+    }
+    .platillo-popular {
+        background-position: center center;
+        background-size: cover;
+        height: 200px;
+    }
+    .etiqueta {
+        margin-top: 15px;
+        background-color: $amarillo;
+        display: inline-flex;
+        padding: 0px 20px;
+        height: 50px;
+        align-items: center;
+        p {
+            margin: 0px;
+            font-family: $kenyan;
+            letter-spacing: 1px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+}

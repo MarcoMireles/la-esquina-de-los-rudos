@@ -1,0 +1,10 @@
+<?php include_once('templates/shared/header.php'); ?>
+<?php include_once('templates/shared/menu.php'); ?>
+<?php include_once('templates/inicio/hero.php'); ?>
+<?php include_once('templates/inicio/populares.php'); ?>
+<?php include_once('templates/inicio/menu.php'); ?>
+<?php include_once('templates/inicio/descanso.php'); ?>
+<?php include_once('templates/inicio/sucursales.php'); ?>
+<?php include_once('templates/inicio/banner.php'); ?>
+<?php include_once('templates/inicio/contacto.php'); ?>
+<?php include_once('templates/shared/footer.php'); ?>

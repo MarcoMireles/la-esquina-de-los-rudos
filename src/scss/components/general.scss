@@ -1,0 +1,73 @@
+// FUENTES
+$karla: "Karla";
+$kenyan: "Kenyan Coffee Rg";
+$nexa: "Nexa Rust Sans";
+// COLORES
+$rojo: #ee1c24;
+$blanco: #fff;
+$negro: #000;
+$azul: #0085c8;
+$amarillo: #f7e902;
+html {
+    scroll-behavior: smooth;
+}
+
+.up {
+    background-color: $rojo;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 50px;
+    z-index: 1000;
+    a {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        color: $blanco;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.visible {
+    display: block;
+}
+
+// BOTON RUDO
+.btn-rudo {
+    font-size: 20px;
+    display: inline-flex;
+    background-color: $rojo;
+    color: $blanco;
+    font-family: $kenyan;
+    height: 50px;
+    align-items: center;
+    padding: 0px 30px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    border: 0px;
+    &:hover {
+        color: $blanco;
+        text-decoration: none;
+    }
+}
+
+.bg-amarillo {
+    background-color: $amarillo;
+}
+
+.bg-azul {
+    background-color: $azul;
+}
+
+.active {
+    color: $rojo !important;
+}

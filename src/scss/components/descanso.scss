@@ -1,0 +1,9 @@
+#descanso {
+    //margin-top: 20px;
+    @media only screen and (min-width: 992px) {
+        margin-top: 80px;
+    }
+    img {
+        width: 100%;
+    }
+}
